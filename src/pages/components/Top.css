@@ -1,0 +1,25 @@
+/* 최상단 버튼 CSS */
+
+.T_Footer{
+    position: fixed;
+    right: 0;
+    margin: 0 2% 1% 0;
+    bottom: 0;
+}
+
+.T_Button {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    color: black;
+    border: 0.03cm solid rgb(241, 241, 241, 0.7);
+    background: white;
+    border-radius: 100%;
+    box-shadow: 2px 3px 3px -1px gray;
+}
+
+.T_Button:hover{
+    color:aliceblue;
+    background: #244F9E;
+    border: none;
+}

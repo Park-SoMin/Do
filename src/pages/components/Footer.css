@@ -1,0 +1,41 @@
+/* 문의 정보 CSS */
+
+  .F_Form {
+    background-color: rgb(221, 220, 220);
+    position: relative;
+    bottom: 0;
+    width: 101.9%;
+    height: 30%;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(82, 81, 81);
+    margin: 100% 0 -1% -1%;
+    padding: 2% 0 2% 0;
+  }
+  
+  .F_Title {
+    font-size: 170%;
+    font-weight: 600;
+    margin: 1% 0 1% 0;
+    color: rgb(46, 45, 45);
+  }
+  
+  .F_Content {
+    margin-bottom: 2%;
+  }
+  
+  .F_Content span {
+    font-size: 120%;
+    margin-right: 1%;
+  }
+  
+  .F_Content span:nth-child(1),
+  .F_Content span:nth-child(3),
+  .F_Content span:nth-child(5) {
+    font-weight: 600;
+  }
+  
+  .F_Text {
+    font-size: 90%;
+  }
+  

@@ -1,0 +1,25 @@
+/* HomeCarousel.css */
+
+.HC_body {
+    position: absolute;
+    margin: 0 5% 0 0;
+    width: 90%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HC_container {
+    margin-top: 10%;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HC_img {
+    max-width: 100%;
+    max-height: 100%;
+  }

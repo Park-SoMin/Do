@@ -1,0 +1,16 @@
+
+.T_header{
+    border: 1px solid palevioletred;
+}
+
+.T_carousel{
+    border: 1px solid orange;
+    height: 800px;
+}
+
+.T_news {
+    border: 1px solid green;
+    height: 800px;
+    position: relative; /* Add position property */
+    z-index: 1; /* Add z-index property to control stacking order */
+}

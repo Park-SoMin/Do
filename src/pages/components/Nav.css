@@ -1,0 +1,20 @@
+/* 페이스북 & 인스타그램 아이콘 */
+
+.N_Form{
+    position: fixed;
+    display: grid;
+    place-items: center;
+    right: 0;
+    top: 45%;
+}
+
+.N_Faceicon{
+    width: 35px;
+    height: 35px;
+}
+
+.N_Istaicon{
+    width: 40px;
+    height: 40px;
+    
+}

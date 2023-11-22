@@ -1,0 +1,87 @@
+/* Header의 카테고리 CSS*/
+
+.H_body {
+        margin: -0.5% 0 0 0;
+        flex-wrap: wrap;
+      }
+    /* 전체 틀 */
+    .H_Form{
+        background: linear-gradient(140deg, white 50%,  rgba(122, 140, 238, 0.288) );
+        height: 10vh;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        box-sizing: border-box;
+    }
+    /* ■ + 이름 */
+    .H_Left{
+        margin-left: 4%;
+        width: 25%;
+    }
+    /* ■ */
+    .H_Sqare{
+        color: #1956c7;
+    }
+    /* 색 변경
+        color: #1c60df;
+    */
+    /* Walid Jahin */
+    .H_Name{
+        font-size: 150%;
+        font-weight: bold;
+        margin-left: 0.5%;
+    }
+    /* / Artist*/
+    .H_Job{
+        color: rgba(143, 142, 142, 0.877);
+        font-weight: bold;
+        margin-left: 3%;
+    
+    }
+    /* 메뉴 + 언어 */
+    .H_Right{
+        float: right;
+        right: 0;
+        text-align: right;
+        width: 70%;
+    }
+    /* 메뉴 */
+    .H_Menu{
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 140%;
+        margin-right: 5%;
+        
+    }
+    /* menu-item */
+    .H_menu-item {
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s ease; /* Add a transition for smooth color change on hover */
+      }
+      
+      /* Styling for active links */
+      .H_menu-item.active {
+        color: #1956c7;
+      }
+      
+      /* 호버 효과 */
+      .H_menu-item:hover {
+        color: #1956c7;
+        text-decoration: underline #1956c7 dotted 5px;
+        text-underline-offset: 8px;
+      }
+    /* | */
+    .H_Bar{
+        font-size: 20px;
+        margin: 0 2% 0 2%;
+    }
+    /*언어 : 영어 / 아랍어*/
+    .H_Lan{
+        margin: 0 4% 0 -2%;
+        text-decoration: underline;
+        font-size: 140%;
+    } 
+    
+    
